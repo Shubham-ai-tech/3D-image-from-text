@@ -28,3 +28,14 @@ Generate high-quality 3D assets (GLB, OBJ, PLY, GIF) from text prompts using Ope
 ├── generated_assets/    # Output folder for 3D assets
 ├── requirements.txt
 └── README.md
+
+## Installation
+git clone https://github.com/your-username/3d-shap-e-generator.git
+cd 3d-shap-e-generator
+
+# Install requirements
+pip install -r requirements.txt
+
+# For local development
+pip install -e git+https://github.com/openai/shap-e.git#egg=shap_e
+
